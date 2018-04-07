@@ -6,12 +6,12 @@ spring.thymeleaf.cache: true
 security.basic.enabled: false
 
 server:
-    port: 8081
+    port: 8000
 
 # OpenIoT 配置
 bupt.thingsboard:
 #  host: 10.108.216.193 # for cc
 #  host: 10.108.217.227 # for gpu
-  host: 127.0.0.1
+  host: 39.104.84.131
   port: 8080
   login_url: http://${bupt.thingsboard.host}:${bupt.thingsboard.port}/api/auth/login
