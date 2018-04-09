@@ -50,19 +50,6 @@ public class NavigationController {
         return "device";
     }
 
-    @RequestMapping("/services")
-    public String  services() {
-        return "services";
-    }
-
-    @RequestMapping("/rules")
-    public String  rules() {
-        return "rules";
-    }
-
-    @RequestMapping("/plugins")
-    public String  plugins() { return "plugins"; }
-
     @RequestMapping("/assess")
     public String  assess() {
         return "assess";
