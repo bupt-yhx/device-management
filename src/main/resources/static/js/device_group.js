@@ -33,6 +33,7 @@ $(function () {
             }
         },//多语言配置
         ajax: {
+        	
             url: "/api/group/allGroups",
             dataSrc: ""
         },

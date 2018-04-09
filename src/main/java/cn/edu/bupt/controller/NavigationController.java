@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by Administrator on 2017/12/23.
  *
- * 返回的字符串在处理上为静态资源的地址
+ * 返回前端请求的html,html静态资源主要放在resouce/template下面
  */
 @Controller
 @Slf4j
@@ -19,7 +19,7 @@ public class NavigationController {
 
     @Autowired
     private HttpServletRequest request;
-
+    
     @RequestMapping("/")
     public String  index() {
         return "index";
